@@ -22,3 +22,8 @@ My Solutions for the tracks in [exercism.io](https://exercism.io)
 -   [x] two-fer
 -   [x] hamming
 -   [x] raindrops
+-   [x] scrabble-score
+-   [x] isogram
+-   [x] reverse-string
+-   [x] difference-of-squares
+-   [x] luhn
