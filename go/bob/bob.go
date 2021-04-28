@@ -1,8 +1,3 @@
-// This is a "stub" file.  It's a little start on your solution.
-// It's not a complete solution though; you have to write some code.
-
-// Package bob should have a package comment that summarizes what it's about.
-// https://golang.org/doc/effective_go.html#commentary
 package bob
 
 import (
@@ -10,18 +5,22 @@ import (
     "unicode"    
 )
 
+// Check if strings is empty or not
 func IsEmpty(s string) bool {
     return s == ""
 }
 
+// Check if input is a question
 func IsQuestion(s string) bool {
     return strings.HasSuffix(s, "?")
 }
 
+// Check if input is in upper case
 func IsUpper(s string) bool {
     return ContainsLetter(s) && strings.ToUpper(s) == s
 }
 
+// Check if string contains alphabets
 func ContainsLetter(s string) bool {
     for _, c := range s  {
         if unicode.IsLetter(c) {
@@ -31,6 +30,7 @@ func ContainsLetter(s string) bool {
     return false
 }
 
+// Returns responses to input strings
 func Hey(remark string) string {
     r := strings.TrimSpace(remark)
 
