@@ -27,3 +27,5 @@ My Solutions for the tracks in [exercism.io](https://exercism.io)
 -   [x] reverse-string
 -   [x] difference-of-squares
 -   [x] luhn
+-   [x] grains
+-   [x] clock
