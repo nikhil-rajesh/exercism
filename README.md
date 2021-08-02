@@ -29,3 +29,9 @@ My Solutions for the tracks in [exercism.io](https://exercism.io)
 -   [x] luhn
 -   [x] grains
 -   [x] clock
+
+## Lua
+
+-   [x] hello-world
+-   [x] hamming
+-   [x] resistor-color-trio
