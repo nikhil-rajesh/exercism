@@ -9,7 +9,6 @@
 *.lo
 *.o
 *.obj
-
 # Precompiled Headers
 *.gch
 *.pch
@@ -33,3 +32,8 @@
 *.exe
 *.out
 *.app
+
+# Java
+**/.gradle
+**/.settings
+**/bin
